@@ -1,0 +1,9 @@
+.characteristic-name {
+	cursor: pointer;
+}
+
+.characteristic-name.active {
+	color: #fff;
+	background-color: darkred;
+	box-shadow: rgb(255 255 255);
+}

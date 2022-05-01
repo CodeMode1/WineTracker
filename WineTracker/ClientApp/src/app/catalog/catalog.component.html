@@ -1,0 +1,49 @@
+<table>
+    <thead>
+        <tr>
+            <td>
+                Name
+            </td>
+            <td>
+                Type
+            </td>
+            <td>
+                Age
+            </td>
+            <td>
+                Production
+            </td>
+            <td>
+                Characterics
+                (Sweetness, Acidity, Tannin, Alcohol, Body)
+            </td>
+            <td></td>
+        </tr>
+     </thead>
+
+    <tbody>
+        <tr *ngFor="let wine of wines">
+            <td class="name"
+                [routerLink]="['/detail', wine.id]">
+                {{ wine.name }}
+            </td>
+            <td>
+                {{ wine.type }}
+            </td>
+            <td>
+                {{ wine.age }}
+            </td>
+            <td>
+                {{ wine.production }}
+            </td>
+            <td>
+                <span *ngFor="let characteristic of wine.characteristics">
+                    {{ characteristic.name }}, {{ characteristic.description }}
+                </span>
+            </td>
+            <td>
+                <button>Add to Favorites</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

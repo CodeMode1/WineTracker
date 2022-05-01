@@ -1,0 +1,32 @@
+<div *ngIf="wine">
+	<!-- name -->
+	<input placeholder="Name" [(ngModel)]="wine.name" />
+
+	<!-- type -->
+	<input placeholder="Type" [(ngModel)]="wine.type" />
+
+	<!-- age -->
+	<input placeholder="Age" [(ngModel)]="wine.age" />
+
+	<!-- production -->
+	<input placeholder="Production" [(ngModel)]="wine.production" />
+
+	<!-- description -->
+	<input placeholder="Description" [(ngModel)]="wine.description" />
+
+	<!-- characteristics -->
+	<div *ngFor="let characteristic of wine.characteristics">
+		<span class="characteristic-name"
+			  [ngClass]="{ 'active' : characteristic.trait === activeTrait }"
+			  (click)="toggleTrait(characteristic.trait)">
+			{{ characteristic.getName() }}
+		</span>
+
+		<ng-container *ngIf="characteristic.trait === activeTrait">
+			<input placeholder="Description" [(ngModel)]="characteristic.description" />
+
+			<!-- todo : slider to input value -->
+			<span>Level {{ characteristic.level }}</span>
+		</ng-container>
+	</div>
+</div>

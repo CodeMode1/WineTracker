@@ -1,0 +1,392 @@
+[
+	{
+		"id":  "1",
+		"name": "Altar Bazaar",
+		"type": "Bordeaux",
+		"age": 10,
+		"production": "France",
+		"characteristics": [
+			{
+				"name": "Sweetness",
+				"description": "user description for the wine characteristic",
+				"trait": 0,
+				"level": 40
+			},
+			{
+				"name": "Acidity",
+				"description": "user description for the wine characteristic",
+				"trait": 1,
+				"level": 6
+			},
+			{
+				"name": "Tannin",
+				"description": "user description for the wine characteristic",
+				"trait": 2,
+				"level": 50
+			},
+			{
+				"name": "Alcohol",
+				"description": "user description for the wine characteristic",
+				"trait": 3,
+				"level": 15
+			},
+			{
+				"name": "Body",
+				"description": "user description for the wine characteristic",
+				"trait": 4,
+				"level": 0
+			}
+		]
+	},
+	{
+		"id": "2",
+		"name": "Passera",
+		"type": "Cabernet Sauvignon",
+		"age": 13,
+		"production": "Pologne",
+		"characteristics": [
+			{
+				"name": "Sweetness",
+				"description": "user description for the wine characteristic",
+				"trait": 0,
+				"level": 40
+			},
+			{
+				"name": "Acidity",
+				"description": "user description for the wine characteristic",
+				"trait": 1,
+				"level": 6
+			},
+			{
+				"name": "Tannin",
+				"description": "user description for the wine characteristic",
+				"trait": 2,
+				"level": 50
+			},
+			{
+				"name": "Alcohol",
+				"description": "user description for the wine characteristic",
+				"trait": 3,
+				"level": 15
+			},
+			{
+				"name": "Body",
+				"description": "user description for the wine characteristic",
+				"trait": 4,
+				"level": 0
+			}
+		]
+	},
+	{
+		"id": "3",
+		"name": "Estraganza",
+		"type": "Merlot",
+		"age": 15,
+		"production": "Espagne",
+		"characteristics": [
+			{
+				"name": "Sweetness",
+				"description": "user description for the wine characteristic",
+				"trait": 0,
+				"level": 40
+			},
+			{
+				"name": "Acidity",
+				"description": "user description for the wine characteristic",
+				"trait": 1,
+				"level": 6
+			},
+			{
+				"name": "Tannin",
+				"description": "user description for the wine characteristic",
+				"trait": 2,
+				"level": 50
+			},
+			{
+				"name": "Alcohol",
+				"description": "user description for the wine characteristic",
+				"trait": 3,
+				"level": 15
+			},
+			{
+				"name": "Body",
+				"description": "user description for the wine characteristic",
+				"trait": 4,
+				"level": 0
+			}
+		]
+	},
+	{
+		"id": "4",
+		"name": "Spirelli",
+		"type": "Cabernet",
+		"age": 11,
+		"production": "Italie",
+		"characteristics": [
+			{
+				"name": "Sweetness",
+				"description": "user description for the wine characteristic",
+				"trait": 0,
+				"level": 40
+			},
+			{
+				"name": "Acidity",
+				"description": "user description for the wine characteristic",
+				"trait": 1,
+				"level": 6
+			},
+			{
+				"name": "Tannin",
+				"description": "user description for the wine characteristic",
+				"trait": 2,
+				"level": 50
+			},
+			{
+				"name": "Alcohol",
+				"description": "user description for the wine characteristic",
+				"trait": 3,
+				"level": 15
+			},
+			{
+				"name": "Body",
+				"description": "user description for the wine characteristic",
+				"trait": 4,
+				"level": 0
+			}
+		]
+	},
+	{
+		"id": "5",
+		"name": "Le vin de souper magique a cote de la tour eiffel",
+		"type": "Bordeaux",
+		"age": 10,
+		"production": "France",
+		"characteristics": [
+			{
+				"name": "Sweetness",
+				"description": "user description for the wine characteristic",
+				"trait": 0,
+				"level": 40
+			},
+			{
+				"name": "Acidity",
+				"description": "user description for the wine characteristic",
+				"trait": 1,
+				"level": 6
+			},
+			{
+				"name": "Tannin",
+				"description": "user description for the wine characteristic",
+				"trait": 2,
+				"level": 50
+			},
+			{
+				"name": "Alcohol",
+				"description": "user description for the wine characteristic",
+				"trait": 3,
+				"level": 15
+			},
+			{
+				"name": "Body",
+				"description": "user description for the wine characteristic",
+				"trait": 4,
+				"level": 0
+			}
+		]
+	},
+	{
+		"id": "6",
+		"name": "Anterze",
+		"type": "Merlot",
+		"age": 14,
+		"production": "Danemark",
+		"characteristics": [
+			{
+				"name": "Sweetness",
+				"description": "user description for the wine characteristic",
+				"trait": 0,
+				"level": 40
+			},
+			{
+				"name": "Acidity",
+				"description": "user description for the wine characteristic",
+				"trait": 1,
+				"level": 6
+			},
+			{
+				"name": "Tannin",
+				"description": "user description for the wine characteristic",
+				"trait": 2,
+				"level": 50
+			},
+			{
+				"name": "Alcohol",
+				"description": "user description for the wine characteristic",
+				"trait": 3,
+				"level": 15
+			},
+			{
+				"name": "Body",
+				"description": "user description for the wine characteristic",
+				"trait": 4,
+				"level": 0
+			}
+		]
+	},
+	{
+		"id": "7",
+		"name": "Krissi",
+		"type": "Cabernet",
+		"age": 11,
+		"production": "Brésil",
+		"characteristics": [
+			{
+				"name": "Sweetness",
+				"description": "user description for the wine characteristic",
+				"trait": 0,
+				"level": 40
+			},
+			{
+				"name": "Acidity",
+				"description": "user description for the wine characteristic",
+				"trait": 1,
+				"level": 6
+			},
+			{
+				"name": "Tannin",
+				"description": "user description for the wine characteristic",
+				"trait": 2,
+				"level": 50
+			},
+			{
+				"name": "Alcohol",
+				"description": "user description for the wine characteristic",
+				"trait": 3,
+				"level": 15
+			},
+			{
+				"name": "Body",
+				"description": "user description for the wine characteristic",
+				"trait": 4,
+				"level": 0
+			}
+		]
+	},
+	{
+		"id": "8",
+		"name": "Raisin de la colere part2",
+		"type": "Cabernet",
+		"age": 10,
+		"production": "Canada",
+		"characteristics": [
+			{
+				"name": "Sweetness",
+				"description": "user description for the wine characteristic",
+				"trait": 0,
+				"level": 40
+			},
+			{
+				"name": "Acidity",
+				"description": "user description for the wine characteristic",
+				"trait": 1,
+				"level": 6
+			},
+			{
+				"name": "Tannin",
+				"description": "user description for the wine characteristic",
+				"trait": 2,
+				"level": 50
+			},
+			{
+				"name": "Alcohol",
+				"description": "user description for the wine characteristic",
+				"trait": 3,
+				"level": 15
+			},
+			{
+				"name": "Body",
+				"description": "user description for the wine characteristic",
+				"trait": 4,
+				"level": 0
+			}
+		]
+	},
+	{
+		"id": "9",
+		"name": "Winesty",
+		"type": "Bordeaux",
+		"age": 10,
+		"production": "US",
+		"characteristics": [
+			{
+				"name": "Sweetness",
+				"description": "user description for the wine characteristic",
+				"trait": 0,
+				"level": 40
+			},
+			{
+				"name": "Acidity",
+				"description": "user description for the wine characteristic",
+				"trait": 1,
+				"level": 6
+			},
+			{
+				"name": "Tannin",
+				"description": "user description for the wine characteristic",
+				"trait": 2,
+				"level": 50
+			},
+			{
+				"name": "Alcohol",
+				"description": "user description for the wine characteristic",
+				"trait": 3,
+				"level": 15
+			},
+			{
+				"name": "Body",
+				"description": "user description for the wine characteristic",
+				"trait": 4,
+				"level": 0
+			}
+		]
+	},
+	{
+		"id": "10",
+		"name": "Jortua",
+		"type": "Bordeaux",
+		"age": 22,
+		"production": "Portugual",
+		"characteristics": [
+			{
+				"name": "Sweetness",
+				"description": "user description for the wine characteristic",
+				"trait": 0,
+				"level": 40
+			},
+			{
+				"name": "Acidity",
+				"description": "user description for the wine characteristic",
+				"trait": 1,
+				"level": 6
+			},
+			{
+				"name": "Tannin",
+				"description": "user description for the wine characteristic",
+				"trait": 2,
+				"level": 50
+			},
+			{
+				"name": "Alcohol",
+				"description": "user description for the wine characteristic",
+				"trait": 3,
+				"level": 15
+			},
+			{
+				"name": "Body",
+				"description": "user description for the wine characteristic",
+				"trait": 4,
+				"level": 0
+			}
+		]
+	}
+]
