@@ -11,18 +11,25 @@ var WineCharacteristic = /** @class */ (function () {
         this.description = description;
         this.trait = trait;
         this.level = level;
+        this.setName();
     }
-    WineCharacteristic.prototype.getName = function () {
+    WineCharacteristic.prototype.setName = function () {
+        var name = "";
         switch (this.trait) {
             case winetrait_enum_1.WineTrait.Sweetness:
-                return "Sweetness";
+                name = "Sweetness";
+                break;
             case winetrait_enum_1.WineTrait.Acidity:
-                return "Acidity";
+                name = "Acidity";
+                break;
             case winetrait_enum_1.WineTrait.Alcohol:
-                return "Alcohol";
+                name = "Alcohol";
+                break;
             case winetrait_enum_1.WineTrait.Body:
-                return "Body";
+                name = "Body";
+                break;
         }
+        this.name = name;
     };
     return WineCharacteristic;
 }());

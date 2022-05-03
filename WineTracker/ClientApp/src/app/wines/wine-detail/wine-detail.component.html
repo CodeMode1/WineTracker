@@ -3,7 +3,12 @@
 	<input placeholder="Name" [(ngModel)]="wine.name" />
 
 	<!-- type -->
-	<input placeholder="Type" [(ngModel)]="wine.type" />
+	<select name="type" [(ngModel)]="wine.type">
+		<option *ngFor="let type of wineTypeItems" [value]="type.value">{{type.label}}</option>
+	</select>
+
+	<!-- variety -->
+	<input placeholder="Variety" [(ngModel)]="wine.variety" />
 
 	<!-- age -->
 	<input placeholder="Age" [(ngModel)]="wine.age" />
@@ -19,7 +24,7 @@
 		<span class="characteristic-name"
 			  [ngClass]="{ 'active' : characteristic.trait === activeTrait }"
 			  (click)="toggleTrait(characteristic.trait)">
-			{{ characteristic.getName() }}
+			{{ characteristic.name }}
 		</span>
 
 		<ng-container *ngIf="characteristic.trait === activeTrait">

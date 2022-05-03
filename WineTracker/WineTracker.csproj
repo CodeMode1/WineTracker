@@ -35,6 +35,11 @@
     <TypeScriptCompile Remove="ClientApp\src\app\wine\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="ClientApp\src\app\wines\winetype.model.ts" />
+    <None Remove="ClientApp\src\app\wines\winetypevalue.enum.ts" />
+  </ItemGroup>
+
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
     <!-- Ensure Node.js is installed -->
     <Exec Command="node --version" ContinueOnError="true">

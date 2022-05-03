@@ -1,7 +1,7 @@
-// External imports
+// External imports.
 import { Component, OnInit } from '@angular/core';
 
-// Application imports
+// Application imports.
 import { Wine } from '../wines/wine.model';
 import { WineService } from '../wines/wine.service';
 

@@ -1,7 +1,10 @@
+// External imports.
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, throwError } from 'rxjs';
 import { catchError, map, tap } from 'rxjs/operators';
+
+// Application imports.
 import { Wine } from './wine.model';
 
 @Injectable({

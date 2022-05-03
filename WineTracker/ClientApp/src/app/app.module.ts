@@ -1,9 +1,11 @@
+// External imports.
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
+// Application imports.
 import { AppComponent } from './app.component';
 import { CatalogComponent } from './catalog/catalog.component';
 import { FavoriteComponent } from './favorites/favorite.component';
@@ -14,7 +16,6 @@ import { UserPreferenceComponent } from './user-preferences/user-preference.comp
 import { WineDetailComponent } from './wines/wine-detail/wine-detail.component';
 import { WineService } from './wines/wine.service';
 
-// TODO other ide: rating featue
 @NgModule({
     declarations: [
         AppComponent,

@@ -1,11 +1,13 @@
-// External imports
-import { Component, OnInit } from '@angular/core';
+// External imports.
 import { ActivatedRoute } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
 
-// Application imports
+// Application imports.
 import { Wine } from '../wine.model';
 import { WineService } from '../wine.service';
 import { WineTrait } from '../winetrait.enum';
+import { WineType } from '../winetype.model';
+import { WineTypeValue } from '../winetypevalue.enum';
 
 @Component({
   selector: 'app-wine-detail',
@@ -14,13 +16,17 @@ import { WineTrait } from '../winetrait.enum';
 })
 export class WineDetailComponent implements OnInit {
 	public wine: Wine | null = null;
+	public wineTypeItems: WineType[] = [];
 
 	public isInCreateMode = false;
 	public activeTrait = WineTrait.Sweetness;
 
 	constructor(
 		private readonly _activatedRoute: ActivatedRoute,
-		private readonly _wineService: WineService) { }
+		private readonly _wineService: WineService) {
+
+		this.setWineTypeItems();
+	}
 
 	public ngOnInit(): void {
 		const wineId = this._activatedRoute.snapshot.params['id'];
@@ -45,5 +51,12 @@ export class WineDetailComponent implements OnInit {
 
 	public toggleTrait(trait: WineTrait): void {
 		this.activeTrait = trait;
+	}
+
+	public setWineTypeItems(): void {
+		this.wineTypeItems.push(new WineType({ value: WineTypeValue.Red, label: "Red", isSelected: true }));
+		this.wineTypeItems.push(new WineType({ value: WineTypeValue.White, label: "White", isSelected: false }));
+		this.wineTypeItems.push(new WineType({ value: WineTypeValue.Rose, label: "Rose", isSelected: false }));
+		this.wineTypeItems.push(new WineType({ value: WineTypeValue.Sparkling, label: "Sparkling", isSelected: false }));
 	}
 }

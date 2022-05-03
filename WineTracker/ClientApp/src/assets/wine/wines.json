@@ -2,7 +2,8 @@
 	{
 		"id":  "1",
 		"name": "Altar Bazaar",
-		"type": "Bordeaux",
+		"type":  0,
+		"variety": "Bordeaux",
 		"age": 10,
 		"production": "France",
 		"characteristics": [
@@ -41,7 +42,8 @@
 	{
 		"id": "2",
 		"name": "Passera",
-		"type": "Cabernet Sauvignon",
+		"type": 0,
+		"variety": "Cabernet Sauvignon",
 		"age": 13,
 		"production": "Pologne",
 		"characteristics": [
@@ -80,7 +82,8 @@
 	{
 		"id": "3",
 		"name": "Estraganza",
-		"type": "Merlot",
+		"type": 0,
+		"variety": "Merlot",
 		"age": 15,
 		"production": "Espagne",
 		"characteristics": [
@@ -119,7 +122,8 @@
 	{
 		"id": "4",
 		"name": "Spirelli",
-		"type": "Cabernet",
+		"type": 1,
+		"variety": "Cabernet",
 		"age": 11,
 		"production": "Italie",
 		"characteristics": [
@@ -158,7 +162,8 @@
 	{
 		"id": "5",
 		"name": "Le vin de souper magique a cote de la tour eiffel",
-		"type": "Bordeaux",
+		"type": 0,
+		"variety": "Bordeaux",
 		"age": 10,
 		"production": "France",
 		"characteristics": [
@@ -197,7 +202,8 @@
 	{
 		"id": "6",
 		"name": "Anterze",
-		"type": "Merlot",
+		"type": 0,
+		"variety": "Merlot",
 		"age": 14,
 		"production": "Danemark",
 		"characteristics": [
@@ -235,8 +241,9 @@
 	},
 	{
 		"id": "7",
-		"name": "Krissi",
-		"type": "Cabernet",
+		"name": "Crémant de Bordeaux",
+		"type": 3,
+		"variety": "Crémant de Bordeaux",
 		"age": 11,
 		"production": "Brésil",
 		"characteristics": [
@@ -274,8 +281,9 @@
 	},
 	{
 		"id": "8",
-		"name": "Raisin de la colere part2",
-		"type": "Cabernet",
+		"name": "Clos des Demoiselles",
+		"type": 3,
+		"variety": "Clos des Demoiselles",
 		"age": 10,
 		"production": "Canada",
 		"characteristics": [
@@ -314,7 +322,8 @@
 	{
 		"id": "9",
 		"name": "Winesty",
-		"type": "Bordeaux",
+		"type": 3,
+		"variety": "Champagne",
 		"age": 10,
 		"production": "US",
 		"characteristics": [
@@ -353,7 +362,8 @@
 	{
 		"id": "10",
 		"name": "Jortua",
-		"type": "Bordeaux",
+		"type": 3,
+		"variety":  "Crémant du Jura",
 		"age": 22,
 		"production": "Portugual",
 		"characteristics": [

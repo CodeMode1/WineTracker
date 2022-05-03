@@ -1,11 +1,13 @@
 import { WineCharacteristic } from "./winecharacteristic.model";
 import { WineTrait } from "./winetrait.enum";
+import { WineTypeValue } from "./winetypevalue.enum";
 
 export class Wine {
     public id: string;
     public name: string;
-    public type: string;
-    public age: number;
+	public type: WineTypeValue;
+	public variety: string;
+	public age: number;
 	public production: string;
 	public description: string;
 	public characteristics: WineCharacteristic[];
@@ -14,7 +16,8 @@ export class Wine {
         const {
             id,
             name,
-            type,
+			type,
+			variety,
             age,
 			production,
 			description,
@@ -29,7 +32,8 @@ export class Wine {
 
         this.id = id;
         this.name = name;
-        this.type = type;
+		this.type = type;
+		this.variety = variety;
         this.age = age;
 		this.production = production;
 		this.description = description;

@@ -4,7 +4,7 @@ export class WineCharacteristic {
 	public id: string;
 	public name: string;
 	public description: string;
-	public trait: WineTrait;
+	public trait: WineTrait; // or descriptor ?
 	public level: number;
 
 	constructor(obj: any = {}) {
@@ -21,18 +21,27 @@ export class WineCharacteristic {
 		this.description = description;
 		this.trait = trait;
 		this.level = level;
+
+		this.setName();
 	}
 
-	public getName(): string {
+	private setName(): void {
+		let name = "";
 		switch (this.trait) {
 			case WineTrait.Sweetness:
-				return "Sweetness";
+				name = "Sweetness";
+				break;
 			case WineTrait.Acidity:
-				return "Acidity";
+				name = "Acidity";
+				break;
 			case WineTrait.Alcohol:
-				return "Alcohol";
+				name = "Alcohol";
+				break;
 			case WineTrait.Body:
-				return "Body";
+				name = "Body";
+				break;
 		}
+
+		this.name = name;
 	}
 }

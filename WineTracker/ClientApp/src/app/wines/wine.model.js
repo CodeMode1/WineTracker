@@ -6,7 +6,7 @@ var winetrait_enum_1 = require("./winetrait.enum");
 var Wine = /** @class */ (function () {
     function Wine(obj) {
         if (obj === void 0) { obj = {}; }
-        var id = obj.id, name = obj.name, type = obj.type, age = obj.age, production = obj.production, description = obj.description, _a = obj.characteristics, characteristics = _a === void 0 ? [
+        var id = obj.id, name = obj.name, type = obj.type, variety = obj.variety, age = obj.age, production = obj.production, description = obj.description, _a = obj.characteristics, characteristics = _a === void 0 ? [
             new winecharacteristic_model_1.WineCharacteristic({ trait: winetrait_enum_1.WineTrait.Sweetness }),
             new winecharacteristic_model_1.WineCharacteristic({ trait: winetrait_enum_1.WineTrait.Acidity }),
             new winecharacteristic_model_1.WineCharacteristic({ trait: winetrait_enum_1.WineTrait.Tannin }),
@@ -16,6 +16,7 @@ var Wine = /** @class */ (function () {
         this.id = id;
         this.name = name;
         this.type = type;
+        this.variety = variety;
         this.age = age;
         this.production = production;
         this.description = description;
